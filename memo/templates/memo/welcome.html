@@ -1,13 +1,10 @@
-<!doctype html>
-<html lang="fr">
+{% extends "memo/base.html" %}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bienvenue</title>
-    </head>
+{% block title %}Bienvenue {% endblock%}
 
-<body>
+{% block content %}
+
 	<h1>Bienvenue sur le site de Memo</h1>
-</body>
-</html>
+	<h2>Nous sommes le {{ current_date_time }}. </h2>
+
+{% endblock  %}

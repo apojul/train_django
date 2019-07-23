@@ -2,3 +2,6 @@
 /.pydevproject
 /db.clienta
 /manage.py
+clienta/__pycache__/*.pyc
+memo/__pycache__/*.pyc
+memo/migrations/__pycache__/*.pyc
